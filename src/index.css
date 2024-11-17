@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Inter', sans-serif;
+}
+
+/* App.jsx page */
+
+.mainPage{
+    background-color: #f4f6fa;
+    min-width: 100%;
+    max-width: fit-content;
+    min-height: 100vh;
+}
+
+/* Top Bar page */
+
+.displaybtn{
+    background-color: white;
+    display: flex;
+    padding: 2px 4px 2px 8px;
+    border: 0px;
+    box-shadow: 0px 0px 2px #000000;
+    cursor: pointer;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.displayMain{
+    position: relative;
+    width: fit-content;
+}
+
+.topBar{
+    background-color: white;
+    padding: 16px 40px;
+}
+
+.displayOptions{
+    margin-top:12px;
+    /* display: flex; */
+    gap: 12px;
+    flex-direction: column;
+    position: absolute;
+    padding: 16px;
+    box-shadow: 0px 0px 2px #000000;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: #f8fafb;
+}
+
+.displayOptionsRow{
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+}
+
+/* Ticket Component */
+
+.ticketComponent{
+    width: 300px;
+    padding: 16px;
+    box-shadow: 0px 0px 2px 1px #cacaca;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.profileImage{
+    border-radius: 100%;
+    width: 24px;
+}
+
+/* GroupByStatus page */
+
+.GroupByStatus{
+    padding: 32px 40px;
+    display: flex;
+    gap: 48px;
+    overflow-x: scroll;
+    min-height: 100vh;
+}
+
+.status{
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tickets{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
