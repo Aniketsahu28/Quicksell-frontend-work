@@ -23,7 +23,7 @@ const GroupingByUsers = ({ tickets, users }) => {
             {users.map((user) => {
                 const userTickets = sortTickets(tickets.filter((ticket) => ticket.userId === user.id));
 
-                return <div className="status">
+                return <div className="status" key={user.id}>
                     <div style={{ display: "flex", justifyContent: "space-between" }}>
                         <span style={{ display: "flex", gap: "8px", alignItems: "center" }}>
                             <span style={{ position: "relative" }}>
