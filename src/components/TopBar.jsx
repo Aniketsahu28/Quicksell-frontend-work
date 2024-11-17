@@ -4,7 +4,7 @@ import arrow from "../assets/icons/down.svg"
 import { useState } from 'react'
 import { useRecoilState } from 'recoil'
 import { groupingAtom } from '../store/atoms/GroupingAtom'
-import { orderingAtom } from '../store/atoms/orderingAtom'
+import { orderingAtom } from '../store/atoms/OrderingAtom'
 
 const TopBar = () => {
     const [displayVisible, setDisplayVisible] = useState(false)
